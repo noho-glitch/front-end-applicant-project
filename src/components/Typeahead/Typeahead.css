@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+  margin: 25% auto;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30rem;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+.search-box {
+  display: flex;
+  justify-content: center;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  font-size: 2rem;
+  width: 100%;
+  padding: 1rem;
+  position: relative;
+  margin: auto;
+}
+.search-box:focus {
+  width: 100%;
+  outline: none;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.search-box:hover {
+  width: 100%;
+  outline: none;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.search-btn {
+  height: 100%;
+  width: 4em;
+  margin-top: -2em;
+  position: absolute;
+  top: 50%;
+  right: 4%;
+  opacity: 1;
+  background-color: transparent;
+  border: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("./search2.svg");
+}
+.search-btn:hover {
+  outline: none;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.search-btn:focus {
+  outline: none;
+  opacity: 0.6;
+}
+
+ul.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  width: 90%;
+  margin: 3% auto;
+  position: relative;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  padding-bottom: 0.5rem;
+  border: 1px solid lightgray;
+}
+
+ul.options li {
+  display: flex;
+  justify-content: left;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1.2rem;
+  width: 95%;
+  border-radius: 1rem;
+}
+ul.options li:hover {
+  font-weight: bold;
+  cursor: pointer;
+  background: lightgray;
+  transition: 0.3s all;
+}
+
+ul.options li.option-active {
+  background: whitesmoke;
+  font-size: 1.5rem;
+}
+
+.no-options {
+  color: white;
+}
+
+.matching-substring {
+  font-weight: bold;
+}
+
+.remaining-substring {
+  font-weight: 100;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+  }
+  .search {
+    overflow-x: hidden;
+  }
+  .search-box {
+  }
+} */
