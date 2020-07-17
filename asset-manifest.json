@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/front-end-applicant-project/static/css/main.716a95ef.chunk.css",
+    "main.css": "/front-end-applicant-project/static/css/main.85f24ccc.chunk.css",
     "main.js": "/front-end-applicant-project/static/js/main.802bfc68.chunk.js",
     "main.js.map": "/front-end-applicant-project/static/js/main.802bfc68.chunk.js.map",
     "runtime-main.js": "/front-end-applicant-project/static/js/runtime-main.2ea6c192.js",
@@ -8,16 +8,16 @@
     "static/js/2.deaf3d31.chunk.js": "/front-end-applicant-project/static/js/2.deaf3d31.chunk.js",
     "static/js/2.deaf3d31.chunk.js.map": "/front-end-applicant-project/static/js/2.deaf3d31.chunk.js.map",
     "index.html": "/front-end-applicant-project/index.html",
-    "precache-manifest.1e10cce5172e0192be477a591391dd44.js": "/front-end-applicant-project/precache-manifest.1e10cce5172e0192be477a591391dd44.js",
+    "precache-manifest.028de94ad8d3362e3f77bde8d2428217.js": "/front-end-applicant-project/precache-manifest.028de94ad8d3362e3f77bde8d2428217.js",
     "service-worker.js": "/front-end-applicant-project/service-worker.js",
-    "static/css/main.716a95ef.chunk.css.map": "/front-end-applicant-project/static/css/main.716a95ef.chunk.css.map",
+    "static/css/main.85f24ccc.chunk.css.map": "/front-end-applicant-project/static/css/main.85f24ccc.chunk.css.map",
     "static/js/2.deaf3d31.chunk.js.LICENSE.txt": "/front-end-applicant-project/static/js/2.deaf3d31.chunk.js.LICENSE.txt",
     "static/media/Typeahead.css": "/front-end-applicant-project/static/media/search2.5768fb43.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2ea6c192.js",
     "static/js/2.deaf3d31.chunk.js",
-    "static/css/main.716a95ef.chunk.css",
+    "static/css/main.85f24ccc.chunk.css",
     "static/js/main.802bfc68.chunk.js"
   ]
 }
