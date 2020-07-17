@@ -2,7 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .wrapper {
-  margin: 25% auto;
+  margin: 5% auto;
   display: flex;
   justify-content: center;
 }
